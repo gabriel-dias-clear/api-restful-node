@@ -2,9 +2,9 @@
   "name": "api-restful-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "npx nodemon index"
+    "start": "npx nodemon app"
   },
   "repository": {
     "type": "git",
