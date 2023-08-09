@@ -1,7 +1,7 @@
-const express = require('express');
-const routes = express.Router();
 
-routes.get('/', (req,res)=>{
+module.exports = (app)=>{
+
+app.get('/users', (req,res)=>{
 
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json({ users: [{
@@ -12,4 +12,4 @@ routes.get('/', (req,res)=>{
 
 })
 
-module.exports = routes;
+};
